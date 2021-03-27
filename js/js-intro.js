@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var out1;
 var out2;
 const PI = 3.14;
