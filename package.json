@@ -1,0 +1,23 @@
+{
+  "name": "dc-flex-exercise-032021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizzapanther/dc-flex-exercise-032021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pizzapanther/dc-flex-exercise-032021/issues"
+  },
+  "homepage": "https://github.com/pizzapanther/dc-flex-exercise-032021#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "prettier": "^2.2.1"
+  }
+}
