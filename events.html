@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Events Class</title>
+</head>
+<body>
+  <button onclick="hello(event);">Hello Event</button>
+
+  <script>
+    function hello(event) {
+      console.log(event);
+    }
+  </script>
+
+
+  <br><br><br>
+  <button id="my-button">Hello Event 2</button>
+  <input id="texty">
+  <script>
+    var button = document.querySelector('#my-button');
+    var input = document.querySelector('#texty');
+
+    button.addEventListener('click', function(event) {
+      console.log(event);
+    });
+
+    input.addEventListener('keyup', function(event) {
+      console.log(event);
+    });
+
+    input.addEventListener('keydown', function(event) {
+      console.log(event);
+    });
+
+    window.addEventListener('resize', function() {
+      console.log(window.innerWidth);
+    });
+  </script>
+</body>
+</html>

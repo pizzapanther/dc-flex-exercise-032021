@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Events Class</title>
+</head>
+<body>
+  <button id="my-button">Hello Event 2</button>
+  <input id="texty">
+
+  <div style="cursor: pointer;">click me</div>
+  <a href="javascript: void(0);">click me too</a>
+
+  <script src="events.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+      console.log('DOM is ready.');
+      add_event_listeners();
+    });
+  </script>
+</body>
+</html>
